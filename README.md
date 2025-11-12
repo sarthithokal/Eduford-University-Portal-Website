@@ -99,7 +99,7 @@ The portal offers visitors a seamless browsing experience, showcasing the univer
 
 ---
 
-## 🧠 Learning Outcomes
+## Learning Outcomes
 
 * Designed a **responsive, multi-page educational website** using HTML, CSS, and JS.
 * Understood **website structuring, navigation, and visual hierarchy**.
@@ -107,7 +107,7 @@ The portal offers visitors a seamless browsing experience, showcasing the univer
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Sarthi Gajanan Thokal**
 🎓 Bachelor of Engineering in Information Technology
@@ -116,7 +116,7 @@ The portal offers visitors a seamless browsing experience, showcasing the univer
 
 ---
 
-## 🚀 Future Enhancements
+## Future Enhancements
 
 * Add **Student Login / Admin Dashboard**
 * Integrate **Database for Course Registration**
