@@ -1,0 +1,118 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Blog - Global University</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2025</h1>
+    </section>
+    
+<!---------- Blog Page Content ---------->
+    
+<section class="blog-content">
+    <div class="row">
+    <div class="blog-left">
+        <img src="images/certificate.jpg" alt="Certificate Programs">
+        <h2>Certificate & Online Programs for 2025</h2>
+        
+        <p>Eduford University is proud to offer a wide range of certificate and online programs designed to help students and professionals enhance their skills in emerging fields. These programs provide flexibility, expert guidance, and practical knowledge to prepare learners for the demands of today’s competitive world.</p>
+        <br>
+        <p>Our online programs cover areas such as Data Science, Machine Learning, Artificial Intelligence, Business Analytics, Computer Science, and more. Each course is developed by experienced faculty members and industry experts, ensuring a high-quality learning experience. Students can access lectures, interactive sessions, and project-based learning from anywhere in the world.</p>
+        <br>
+        <p>Participants in our certificate programs gain hands-on experience with real-world projects, case studies, and assessments. This approach helps learners develop practical skills, build their portfolios, and improve career prospects. Whether you are a student, working professional, or lifelong learner, our programs are designed to fit your schedule and learning goals.</p>
+        <br>
+        <p>Eduford University is committed to fostering continuous learning and professional growth. Our certificate and online programs are regularly updated to keep pace with industry trends and technological advancements. Join our community of learners and take the next step in your academic and professional journey.</p>
+        
+        <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form class="comment-form">
+                <input type="text" placeholder="Enter Name">
+                <input type="email" placeholder="Enter Email">
+                <textarea rows="5" placeholder="Your Comment"></textarea>
+                <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+            </form>
+        </div>
+    </div>
+        
+    <div class="blog-right">
+        <h3>Post Categories</h3>
+        <div>
+            <span>Business Analytics</span>
+            <span>21</span>
+        </div>
+        <div>
+            <span>Data Science</span>
+            <span>28</span>
+        </div>
+        <div>
+            <span>Machine Learning</span>
+            <span>15</span>
+        </div>
+        <div>
+            <span>Computer Science</span>
+            <span>34</span>
+        </div>
+        <div>
+            <span>AutoCAD</span>
+            <span>42</span>
+        </div>
+        <div>
+            <span>Journalism</span>
+            <span>22</span>
+        </div>
+        <div>
+            <span>Commerce</span>
+            <span>13</span>
+        </div>
+    </div> 
+    
+    </div>
+</section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>About Us</h4>
+        <p>Eduford University is committed to providing quality education, fostering research, and delivering innovative programs. We strive to empower students and professionals to achieve their full potential.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Eduford University</p>
+</section>    
+    
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>

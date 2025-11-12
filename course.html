@@ -1,0 +1,103 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Our Courses</h1>
+    </section>
+    
+    
+<!---------- course ----------->
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>We provide a range of programs designed to equip students with the knowledge and skills needed to succeed in today's competitive world.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Our intermediate programs focus on foundational subjects, preparing students for advanced studies and professional challenges ahead. Courses include Mathematics, Science, and Communication Skills.</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>The degree programs offer comprehensive knowledge in specialized fields such as Information Technology, Business Administration, and Engineering, fostering both theoretical understanding and practical application.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Our postgraduate courses aim to develop expertise in advanced topics, research skills, and leadership qualities. Programs include MBA, M.Tech, and M.Sc with focus on innovation and career growth.</p>
+            </div>
+        </div>
+    </section>
+    
+<!---------- Facilities ---------->
+
+    <section class="facility">
+        <h1>Our Facilities</h1>
+        <p>We provide top-notch facilities to ensure a conducive learning environment and overall student development.</p>
+            <div class="row">
+                <div class="facility-col">
+                    <img src="images/library.png">
+                    <h3>World Class Library</h3>
+                    <p>Our library houses a vast collection of books, journals, and digital resources to support students in research and learning.</p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/basketball.png">
+                    <h3>Largest Play Ground</h3>
+                    <p>We provide extensive sports grounds for cricket, football, basketball, and other activities to encourage physical fitness and team spirit.</p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/cafeteria.png">
+                    <h3>Tasty and Healthy Food</h3>
+                    <p>Our cafeteria offers nutritious meals and snacks, catering to diverse dietary preferences for the well-being of students.</p>
+                </div>
+            </div>
+    </section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>About Us</h4>
+        <p>Our university is committed to excellence in education, research, and community engagement. We nurture innovation, critical thinking, and holistic development of students.<br>Join us to experience a vibrant campus life and world-class education.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+</section>    
+  
+
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>  
+    
+</body>
+</html>
