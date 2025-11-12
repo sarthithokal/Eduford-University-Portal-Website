@@ -35,11 +35,7 @@ The portal offers visitors a seamless browsing experience, showcasing the univer
 
 ## 📸 Screenshots
 
-> All screenshots are located in the `/screenshots` folder.
-> Use this syntax to display them in Markdown:
-> `![Alt Text](screenshots/filename.png)`
 
----
 
 ### 🏠 Home Page
 
